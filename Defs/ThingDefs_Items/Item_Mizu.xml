@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Mamizu</defName>
+    <label>水</label>
+    <description>水</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Mizu</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.01</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>100</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Uminomizu</defName>
+    <label>海水</label>
+    <description>海水</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Uminomizu</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.01</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>100</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

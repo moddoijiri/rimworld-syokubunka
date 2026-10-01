@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef ParentName="PrepareAnimalBase">
+    <defName>PreppButa</defName>
+    <label>豚を解体する</label>
+    <description>豚を解体する</description>
+    <jobString>豚を解体している</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Volume</ingredientValueGetterClass>
+    <workAmount>300</workAmount>
+    <!-- 材料 -->
+   <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Corpse_Pig</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      
+   </ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+		   	<thingDefs>
+			    <li>Corpse_Pig</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+                <!-- 完成品 -->
+		<products>
+			<Meat_Pig>200</Meat_Pig>
+			<Leather_Pig>28</Leather_Pig>
+			<SBK_Motsu>4</SBK_Motsu>
+		</products>
+    <workSkill>Cooking</workSkill>
+    
+  </RecipeDef>
+  
+  <RecipeDef ParentName="PrepareAnimalBase">
+    <defName>PreppInoshishi</defName>
+    <label>イノシシを解体する</label>
+    <description>イノシシを解体する</description>
+    <jobString>イノシシを解体している</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Volume</ingredientValueGetterClass>
+    <workAmount>300</workAmount>
+    <!-- 材料 -->
+   <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Corpse_WildBoar</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      
+   </ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+		   	<thingDefs>
+			    <li>Corpse_WildBoar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+                <!-- 完成品 -->
+		<products>
+			<Meat_Pig>180</Meat_Pig>
+			<Leather_Pig>20</Leather_Pig>
+			<SBK_Motsu>3</SBK_Motsu>
+		</products>
+    <workSkill>Cooking</workSkill>
+    
+  </RecipeDef>
+  
+  <RecipeDef ParentName="PrepareAnimalBase">
+    <defName>PreppUshi</defName>
+    <label>牛を解体する</label>
+    <description>牛を解体する</description>
+    <jobString>牛を解体している</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Volume</ingredientValueGetterClass>
+    <workAmount>300</workAmount>
+    <!-- 材料 -->
+   <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Corpse_Cow</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      
+   </ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+		   	<thingDefs>
+			    <li>Corpse_Cow</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+                <!-- 完成品 -->
+		<products>
+			<Meat_Cow>300</Meat_Cow>
+			<Leather_Plain>40</Leather_Plain>
+			<SBK_Motsu>6</SBK_Motsu>
+		</products>
+    <workSkill>Cooking</workSkill>
+    
+  </RecipeDef>
+  
+</Defs>

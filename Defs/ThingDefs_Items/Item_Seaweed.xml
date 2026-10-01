@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--海藻-->
+  <ThingDef ParentName="SBK_SeaweedBase">
+    <defName>SBK_Namanori</defName>
+    <label>生海苔</label>
+    <description>岩場に生える海苔を集めたもの。</description>
+    <graphicData>
+      <texPath>Things/Item/Suisanbutsu/Seaweed/Namanori</texPath>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="SBK_SeaweedBase">
+    <defName>SBK_Namakonbu</defName>
+    <label>生昆布</label>
+    <description>海底に生える海藻。日本料理に欠かせない出汁の材料。</description>
+    <graphicData>
+      <texPath>Things/Item/Suisanbutsu/Seaweed/Namakonbu</texPath>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="SBK_SeaweedBase">
+    <defName>SBK_Wakame</defName>
+    <label>わかめ</label>
+    <description>海底に生える海藻。味噌汁にしたり、ご飯と混ぜてわかめご飯などにして食べる。</description>
+    <graphicData>
+      <texPath>Things/Item/Suisanbutsu/Seaweed/Wakame</texPath>
+    </graphicData>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="SBK_SuidenzairyouBase">
+    <defName>SBK_Namagomi</defName>
+    <label>生ごみ</label>
+    <description>コンポストに投入する生ごみ。調理場で生ごみをまとめることで入手することができる。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Namagomi</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>20</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+	<tradeability>None</tradeability>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SuidenzairyouBase">
+    <defName>SBK_Taihi</defName>
+    <label>堆肥</label>
+    <description>ミミズコンポストから得られた堆肥。水田作りに使う。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Taihi</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+	<tradeability>Sellable</tradeability>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SuidenzairyouBase">
+    <defName>SBK_Jyari</defName>
+    <label>砂利</label>
+    <description>石の塊をストーンカッターで砕いて砂利にしたもの。わさび田を造るのに必要。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Jyari</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+	<tradeability>None</tradeability>
+  </ThingDef>
+  
+</Defs>

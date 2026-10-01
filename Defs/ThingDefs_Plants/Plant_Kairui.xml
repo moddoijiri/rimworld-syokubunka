@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantAsariHamaguri</defName>
+    <label>アサリ・蛤</label>
+    <description>アサリ・蛤植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/AsariHamaguri</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_AsariHamaguri</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+	  <harvestAfterGrowth>0.10</harvestAfterGrowth>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>6.6</growDays>
+      <visualSizeRange>0.4~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantSazae</defName>
+    <label>サザエ</label>
+    <description>サザエ植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Sazae</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_Sazae</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+	  <harvestAfterGrowth>0.10</harvestAfterGrowth>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>8.6</growDays>
+      <visualSizeRange>0.4~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantOyster</defName>
+    <label>牡蠣</label>
+    <description>牡蠣植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Oyster</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_Oyster</harvestedThingDef>
+      <harvestYield>3</harvestYield>
+	  <harvestAfterGrowth>0.10</harvestAfterGrowth>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>8.3</growDays>
+      <visualSizeRange>0.4~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantHotate</defName>
+    <label>ホタテ</label>
+    <description>ホタテ植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Hotate</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_Hotate</harvestedThingDef>
+      <harvestYield>2</harvestYield>
+	  <harvestAfterGrowth>0.10</harvestAfterGrowth>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>7.3</growDays>
+      <visualSizeRange>0.4~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantUni</defName>
+    <label>ウニ</label>
+    <description>ウニ植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Uni</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_Uni</harvestedThingDef>
+      <harvestYield>2</harvestYield>
+	  <harvestAfterGrowth>0.10</harvestAfterGrowth>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>7.5</growDays>
+      <visualSizeRange>0.4~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+</Defs>

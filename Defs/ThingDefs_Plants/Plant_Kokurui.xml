@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--穀類-->
+
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantKomugi</defName>
+    <label>小麦</label>
+    <description>小麦植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Komugi</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawKomugi</harvestedThingDef>
+      <harvestYield>6</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>6.3</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantSoba</defName>
+    <label>そば</label>
+    <description>そば植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Soba</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawSoba</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>7.4</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantIne</defName>
+    <label>稲(うるち米)</label>
+    <description>稲植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Ine</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawUruchigenmai</harvestedThingDef>
+      <harvestYield>12</harvestYield>
+	  <immatureGraphicPath>Things/Plant/Immature/Ine</immatureGraphicPath>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>7.2</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantInemochi</defName>
+    <label>稲(もち米)</label>
+    <description>稲植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Inemochi</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawMochigenmai</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+	  <immatureGraphicPath>Things/Plant/Immature/Ine</immatureGraphicPath>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>7.2</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!--Medieval Overhaulを導入して高度な冷暖房が使えない場合に備えて、醸造等の温度設定を無効にする-->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Medieval Overhaul</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SBK_Hakkoutaru"]/description</xpath>
+          <value>
+            <description>納豆と味噌を発酵させる樽。</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="NattouHakkou"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="MisoHakkou"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SBK_Hoshizaru"]/description</xpath>
+          <value>
+            <description>魚介や海藻を乾燥させるざる。</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="Ajihimonotsukuri"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="Surumetsukuri"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="Noritsukuri"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="Konbutsukuri"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="Hoshishiitaketsukuri"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="Katsuobushitsukuri"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SBK_Jyouzoutaru"]/description</xpath>
+          <value>
+            <description>食品を醸造させて酒や醸造調味料を作る樽。</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="SakeHakkou"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="ImojyouchuuHakkou"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="Umesyujyukusei"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="YonezuHakkou"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="SyouyuHakkou"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SBK_Koujitana"]/description</xpath>
+          <value>
+            <description>蒸し米にコウジカビを繁殖させ米麹をつくるための棚。</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="KomekoujiHakkou"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SBK_Compost"]/description</xpath>
+          <value>
+            <description>生ごみをミミズに分解してもらって堆肥を作るコンポスト。</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="Taihitsukuri"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SBK_Nukazuketaru"]/description</xpath>
+          <value>
+            <description>野菜を漬けるぬか床が入った樽。</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="KyuurizukeHakkou"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="HakusaizukeHakkou"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="TomatozukeHakkou"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ProcessorFramework.ProcessDef[defName="NasuzukeHakkou"]/usesTemperature</xpath>
+          <value>
+            <usesTemperature>false</usesTemperature>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

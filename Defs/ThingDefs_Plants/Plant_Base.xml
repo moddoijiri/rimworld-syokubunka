@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   <ThingDef ParentName="TreeBase" Name="SBK_FruitTree" Abstract="True">
+     <plant>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
+      <mustBeWildToSow>false</mustBeWildToSow>
+      <dieIfLeafless>false</dieIfLeafless>
+      <sowWork>3500</sowWork>
+      <sowMinSkill>8</sowMinSkill>
+      <harvestAfterGrowth>0.50</harvestAfterGrowth>
+      <harvestMinGrowth>0.60</harvestMinGrowth>
+      <harvestFailable>true</harvestFailable>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+	  <sowResearchPrerequisites Inherit="False">
+        <li>SBK_SyokuRS</li>
+      </sowResearchPrerequisites>
+     </plant>
+   </ThingDef>
+   
+   <ThingDef ParentName="PlantBase" Name="SBK_YasaiPlant" Abstract="True">
+       <statBases>
+          <MaxHitPoints>85</MaxHitPoints>
+          <Nutrition>0.175</Nutrition>
+       </statBases>
+       <plant>
+      <mustBeWildToSow>false</mustBeWildToSow>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+	  <sowResearchPrerequisites>
+        <li>SBK_SyokuRS</li>
+      </sowResearchPrerequisites>
+     </plant>
+     
+      <selectable>true</selectable>
+     </ThingDef>
+     
+     <ThingDef ParentName="PlantBase" Name="SBK_FungusPlant" Abstract="True">
+       <statBases>
+          <MaxHitPoints>85</MaxHitPoints>
+          <Nutrition>0.175</Nutrition>
+       </statBases>
+       <plant>
+      <mustBeWildToSow>false</mustBeWildToSow>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+	  <sowResearchPrerequisites>
+        <li>SBK_SyokuRS</li>
+      </sowResearchPrerequisites>
+     </plant>
+     </ThingDef>
+
+
+</Defs>

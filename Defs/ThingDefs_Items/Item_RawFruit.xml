@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="SBK_RawFruitBase">
+    <defName>SBK_RawUme</defName>
+    <label>梅の実</label>
+    <description>生のままでは食べられない。梅酒や梅干しの材料として使う。</description>
+    <graphicData>
+      <texPath>Things/Item/RawFruit/RawUme</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>6</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawFruitBase">
+    <defName>SBK_RawKuri</defName>
+    <label>栗</label>
+    <description>生のままではおいしくない。茹でたり栗ご飯にして食べる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawFruit/RawKuri</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>8</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawFruitBase">
+    <defName>SBK_RawYuzu</defName>
+    <label>ゆず</label>
+    <description>香りや酸味付けのために皮や果汁を料理に使用する。ポン酢の材料にもなる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawFruit/RawYuzu</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>13</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawFruitBase">
+    <defName>SBK_RawNashi</defName>
+    <label>梨</label>
+    <description>瑞々しく、甘み、酸味、香りのバランスが良く、生のまま食べれば天に昇れる。夏の味覚の代表格。</description>
+    <graphicData>
+      <texPath>Things/Item/RawFruit/RawNashi</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>5</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawFruitBase">
+    <defName>SBK_RawKaki</defName>
+    <label>柿</label>
+    <description>コクのある甘み、豊かな食感。秋の味覚の代表格。干し柿にするとしつこいくらいの甘みに仕上がり、最高のお茶請けになる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawFruit/RawKaki</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>5</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

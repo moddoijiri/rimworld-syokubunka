@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 追加のJoyKind -->
+  <JoyKindDef>
+    <defName>IngestingSencha</defName>
+    <label>煎茶の香り</label>
+  </JoyKindDef>
+
+  <!-- 追加のJoyGiver-->
+  <JoyGiverDef>
+    <defName>DrinkSencha</defName>
+    <giverClass>JoyGiver_Ingest</giverClass>
+    <baseChance>4.0</baseChance>
+    <thingDefs>
+      <li>SBK_Sencha</li>
+    </thingDefs>
+    <joyKind>IngestingSencha</joyKind>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+
+</Defs>

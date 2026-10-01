@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RecipeDef>
+	<defName>Brew_Sencha</defName>
+	<label>煎茶を淹れる</label>
+	<description>煎茶を淹れる</description>
+	<jobString>煎茶を淹れている</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+	<soundWorking>Recipe_Brewing</soundWorking>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+	  <li>ElectricStove</li>
+      <li>FueledStove</li>
+  </recipeUsers>
+	<workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+	<ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>SBK_RawTea</li>
+	      </thingDefs>
+	    </filter>
+	    <count>8</count>
+	  </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Mamizu</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>SBK_RawTea</li>
+		<li>SBK_Mamizu</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products>
+	  <SBK_Sencha>4</SBK_Sencha>
+	</products>
+	<workSkill>Cooking</workSkill>
+		<skillRequirements>
+			<Cooking>3</Cooking>
+	     </skillRequirements>
+			<researchPrerequisite>Brewing</researchPrerequisite>
+  </RecipeDef>
+
+  
+
+</Defs>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>SBK_Rinyuusyoku</defName>
+    <label>離乳食</label>
+    <description>赤ちゃん用の食事。通常のベビーフードより栄養豊富。ある程度成長した子供や大人は好まない。</description>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Meal/Rinyuusyoku</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>1.25</MarketValue>
+      <Mass>0.015</Mass>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <stackLimit>75</stackLimit>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <preferability>MealTerrible</preferability>
+      <tasteThought>AteBabyFood</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+      <babiesCanIngest>true</babiesCanIngest>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients">
+        <performMergeCompatibilityChecks>false</performMergeCompatibilityChecks>
+        <noIngredientsFoodKind>NonMeat</noIngredientsFoodKind>
+      </li>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <allowedArchonexusCount>200</allowedArchonexusCount>
+  </ThingDef>
+  </Defs>

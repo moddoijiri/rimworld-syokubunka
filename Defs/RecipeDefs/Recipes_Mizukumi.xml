@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  
+  <RecipeDef>
+    <defName>Mizukumi</defName>
+    <label>水を汲む</label>
+    <description>水を汲む。</description>
+	<jobString>水を汲んでいる</jobString>
+    <workAmount>400</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+			
+			
+		</ingredients>
+		<products>
+			<SBK_Mamizu>15</SBK_Mamizu>
+		</products>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>MizukumiBulk</defName>
+    <label>水を汲む x4</label>
+    <description>たくさん水を汲む。</description>
+	<jobString>たくさん水を汲んでいる</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+			
+			
+		</ingredients>
+		<products>
+			<SBK_Mamizu>60</SBK_Mamizu>
+		</products>
+  </RecipeDef>
+  
+  
+  
+  <RecipeDef>
+    <defName>Kaisuikumi</defName>
+    <label>海水を汲む</label>
+    <description>海水を汲む。</description>
+	<jobString>海水を汲んでいる</jobString>
+    <workAmount>400</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+     
+    </ingredients>
+    
+    <products>
+      <SBK_Uminomizu>15</SBK_Uminomizu>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>KaisuikumiBulk</defName>
+    <label>海水を汲む x4</label>
+    <description>たくさん海水を汲む。</description>
+	<jobString>たくさん海水を汲んでいる</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+     
+    </ingredients>
+    
+    <products>
+      <SBK_Uminomizu>60</SBK_Uminomizu>
+    </products>
+  </RecipeDef>
+  
+</Defs>

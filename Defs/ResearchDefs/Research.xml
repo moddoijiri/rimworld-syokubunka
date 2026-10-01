@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchTabDef>
+    <defName>SBK_SyokubunkaRS</defName>
+    <label>食文化</label>
+  </ResearchTabDef>
+  
+  <ResearchProjectDef>
+    <defName>SBK_SyokuRS</defName>
+    <label>食の基本</label>
+    <description>食事の作り方の基本を学ぶ。</description>
+    <tab>SBK_SyokubunkaRS</tab>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Brewing</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>SBK_SushiRS</defName>
+    <label>すしの基本</label>
+    <description>すしの基本を学ぶ。</description>
+    <tab>SBK_SyokubunkaRS</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>SBK_SyokuRS</li>
+	  <li>SterileMaterials</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>SBK_WagashiRS</defName>
+    <label>和菓子の基本</label>
+    <description>和菓子の基本を学ぶ。</description>
+    <tab>SBK_SyokubunkaRS</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>SBK_SyokuRS</li>
+	  <li>SterileMaterials</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>SBK_FuguRS</defName>
+    <label>ふぐ調理の基本</label>
+    <description>毒のあるふぐの調理法を学ぶ。</description>
+    <tab>SBK_SyokubunkaRS</tab>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>SBK_SyokuRS</li>
+	  <li>DrugProduction</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>SBK_SeimaiRS</defName>
+    <label>精米の基本</label>
+    <description>精米の基本を学ぶ。</description>
+    <tab>SBK_SyokubunkaRS</tab>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>SBK_SyokuRS</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>SBK_SeinikuRS</defName>
+    <label>精肉の基本</label>
+    <description>精肉の基本を学ぶ。</description>
+    <tab>SBK_SyokubunkaRS</tab>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>SBK_SyokuRS</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+
+
+</Defs>

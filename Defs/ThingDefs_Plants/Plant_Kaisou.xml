@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantNori</defName>
+    <label>海苔</label>
+    <description>海苔植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Nori</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_Namanori</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+	  <harvestAfterGrowth>0.20</harvestAfterGrowth>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>6.6</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantKonbu</defName>
+    <label>昆布</label>
+    <description>昆布植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Konbu</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_Namakonbu</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+	  <harvestAfterGrowth>0.20</harvestAfterGrowth>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>8.6</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantWakame</defName>
+    <label>わかめ</label>
+    <description>わかめ植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Wakame</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_Wakame</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+	  <harvestAfterGrowth>0.20</harvestAfterGrowth>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>8.3</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+</Defs>

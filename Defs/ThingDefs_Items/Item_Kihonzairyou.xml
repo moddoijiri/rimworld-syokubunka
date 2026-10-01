@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Shio</defName>
+    <label>塩</label>
+    <description>塩。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Shio</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>100</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Satou</defName>
+    <label>砂糖</label>
+    <description>甜菜から作った砂糖。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Satou</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>100</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Komemiso</defName>
+    <label>米味噌</label>
+    <description>米麹と大豆と塩を発酵熟成させて作った味噌。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Komemiso</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Syouyu</defName>
+    <label>醤油</label>
+    <description>米麹と大豆と塩を発酵熟成させて作った醤油。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Syouyu</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Yonezu</defName>
+    <label>米酢</label>
+    <description>米麹と水を混ぜて発酵させて作った酢。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Yonezu</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Konbu</defName>
+    <label>昆布</label>
+    <description>生昆布を乾燥させたもの。出汁の基本素材のひとつ。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Konbu</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>160</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Katsuobushi</defName>
+    <label>かつお節</label>
+    <description>カツオの燻製にカビ付けして熟成させたもの。出汁の基本素材のひとつ。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Katsuobushi</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>Meat</foodType>
+      <preferability>RawBad</preferability>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <tasteThought>AteRawFood</tasteThought>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>110</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Nori</defName>
+    <label>海苔</label>
+    <description>生海苔を板状にして乾燥させたもの。おにぎりなどに使われる。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Nori</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>160</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Hoshishiitake</defName>
+    <label>干し椎茸</label>
+    <description>椎茸を乾燥させたもの。よい出汁がとれる。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Hoshishiitake</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>160</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Dashikatsuo</defName>
+    <label>かつお昆布出汁</label>
+    <description>かつお節と昆布から取った出汁</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Katsuodashi</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>5</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Dashishiitake</defName>
+    <label>椎茸昆布出汁</label>
+    <description>干し椎茸と昆布から取った出汁</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Shiitakedashi</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>5</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Nattou</defName>
+    <label>納豆</label>
+    <description>茹でた大豆を藁に包んで発酵させたもの。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Nattou</texPath>
+      <drawSize>(0.9,0.9)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tasteThought>
+      </tasteThought>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Azukian</defName>
+    <label>小豆餡</label>
+    <description>小豆と氷砂糖を煮詰めて作った餡。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Azukian</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Himonoaji</defName>
+    <label>アジの干物</label>
+    <description>アジを開いて乾燥させたもの。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Himonoaji</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Toufu</defName>
+    <label>豆腐</label>
+    <description>豆乳から作った豆腐。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Toufu</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>5</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Mushimai</defName>
+    <label>蒸し米</label>
+    <description>米を蒸したもの。米麹の材料になる。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Mushimai</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>2</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Komekouji</defName>
+    <label>米麹</label>
+    <description>蒸し米にコウジカビを繁殖させたもの。醤油、味噌、酒などの材料になる。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Komekouji</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Ponzu</defName>
+    <label>ポン酢</label>
+    <description>ゆずと醤油で作ったポン酢。カツオのたたきや湯豆腐に使う</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ponzu</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Sujiko</defName>
+    <label>筋子</label>
+    <description>鮭の卵に塩をまぶして熟成させたもの。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Sujiko</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Konnyaku</defName>
+    <label>こんにゃく・しらたき</label>
+    <description>蒟蒻芋のでんぷんを固めたもの。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Konnyaku</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Komenuka</defName>
+    <label>米ぬか</label>
+    <description>玄米を精米するときに出る副産物。ぬか漬けやこめ油の原料になる。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Komenuka</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Komeabura</defName>
+    <label>こめ油</label>
+    <description>米ぬかから抽出された食用油。癖がなくどんな料理にも使える。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Komeabura</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>114</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Udonmen</defName>
+    <label>うどん(麺)</label>
+    <description>手打ちうどん。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Udonmen</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Sobamen</defName>
+    <label>そば(麺)</label>
+    <description>手打ちそば。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Sobamen</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Yakisobamen</defName>
+    <label>焼きそば(麺)</label>
+    <description>手打ち焼きそば麺。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Yakisobamen</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Sumeshi</defName>
+    <label>酢飯</label>
+    <description>炊いた白米を酢、砂糖、塩で味付けしたもの。寿司の材料。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Sumeshi</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>8</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Ikura</defName>
+    <label>いくら</label>
+    <description>鮭の卵を醤油と酒に漬け込んだもの。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ikura</texPath>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>8</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_KihonzairyouBase">
+    <defName>SBK_Nukadoko</defName>
+    <label>ぬか床</label>
+    <description>米ぬか、鷹の爪、昆布、塩を混ぜ合わせたもの。水を加えて野菜を入れるだけでぬか漬けが作れる。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Nukadoko</texPath>
+      <drawSize>(0.9,0.9)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.1</Mass>
+      <Nutrition>0.01</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

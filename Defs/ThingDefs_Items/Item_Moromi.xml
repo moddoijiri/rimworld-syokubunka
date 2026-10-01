@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>SBK_Sakemoromi</defName>
+		<label>もろみ(酒)</label>
+		<description>蒸し米、麹、酒母、水を混ぜ合わせた日本酒の素。</description>
+		<graphicData>
+			<texPath>Things/Item/Moromi/Sakemoromi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<thingCategories>
+			<li>SBK_Moromi</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+		<statBases>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<MarketValue>2.5</MarketValue>
+			<Mass>0.4</Mass>
+			<Flammability>0.1</Flammability>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients" />
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>SBK_Imomoromi</defName>
+		<label>もろみ(芋)</label>
+		<description>蒸し芋、麹、酒母、水を混ぜ合わせた芋焼酎の素。</description>
+		<graphicData>
+			<texPath>Things/Item/Moromi/Imomoromi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<thingCategories>
+			<li>SBK_Moromi</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+		<statBases>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<MarketValue>2.5</MarketValue>
+			<Mass>0.4</Mass>
+			<Flammability>0.1</Flammability>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients" />
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>SBK_Misomoromi</defName>
+		<label>もろみ(味噌)</label>
+		<description>蒸し大豆、蒸し米、麹、塩を混ぜ合わせた味噌の素。</description>
+		<graphicData>
+			<texPath>Things/Item/Moromi/Misomoromi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<thingCategories>
+			<li>SBK_Moromi</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+		<statBases>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<MarketValue>2.5</MarketValue>
+			<Mass>0.4</Mass>
+			<Flammability>0.1</Flammability>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients" />
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>SBK_Syouyumoromi</defName>
+		<label>もろみ(醤油)</label>
+		<description>蒸し大豆、煎り小麦、麹、塩を混ぜ合わせた醤油の素。</description>
+		<graphicData>
+			<texPath>Things/Item/Moromi/Misomoromi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<thingCategories>
+			<li>SBK_Moromi</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+		<statBases>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<MarketValue>2.5</MarketValue>
+			<Mass>0.4</Mass>
+			<Flammability>0.1</Flammability>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients" />
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>SBK_Umesyumoto</defName>
+		<label>梅酒の素</label>
+		<description>青梅と氷砂糖を合わせた梅酒の素</description>
+		<graphicData>
+			<texPath>Things/Item/Moromi/Umesyumoto</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<thingCategories>
+			<li>SBK_Moromi</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+		<statBases>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<MarketValue>2.5</MarketValue>
+			<Mass>0.4</Mass>
+			<Flammability>0.1</Flammability>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients" />
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>SBK_Yonezumoromi</defName>
+		<label>もろみ(米酢)</label>
+		<description>蒸し米、酵母、水を混ぜ合わせた米酢の素。</description>
+		<graphicData>
+			<texPath>Things/Item/Moromi/Sakemoromi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<thingCategories>
+			<li>SBK_Moromi</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+		<statBases>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<MarketValue>2.5</MarketValue>
+			<Mass>0.4</Mass>
+			<Flammability>0.1</Flammability>
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients" />
+		</comps>
+	</ThingDef>
+
+</Defs>

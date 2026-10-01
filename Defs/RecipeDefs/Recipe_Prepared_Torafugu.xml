@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef ParentName="PrepareSuisanBase">
+    <defName>PreppTorafugu</defName>
+    <label>トラフグを捌く</label>
+    <description>毒のある部位を取り除いてトラフグを切り身と白子を入手する。毒の部位は有害廃棄物パックとして排出される。経験豊富な調理人(スキルレベル10以上)にしか取り扱えない。</description>
+    <jobString>トラフグを捌いている</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1200</workAmount>
+    <!-- 材料 -->
+   <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Torafugu</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      
+   </ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+		   	<thingDefs>
+			    <li>SBK_Torafugu</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+                <!-- 完成品 -->
+		<products>
+			<SBK_TorafuguKirimi>4</SBK_TorafuguKirimi>
+			<SBK_TorafuguShirako>2</SBK_TorafuguShirako>
+			<SBK_Fuguhaikibutsu>1</SBK_Fuguhaikibutsu>
+		</products>
+    <workSkill>Cooking</workSkill>
+	<researchPrerequisites>
+      <li>SBK_FuguRS</li>
+    </researchPrerequisites>
+	<skillRequirements>
+    <Cooking>10</Cooking>
+    </skillRequirements>
+  </RecipeDef>
+  
+  
+
+</Defs>

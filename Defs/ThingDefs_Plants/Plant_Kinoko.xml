@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- =======菌類========= -->
+    <ThingDef ParentName="SBK_FungusPlant">
+        
+        <defName>SBK_PrantShiitake</defName>
+        <label>椎茸</label>
+        <description>日陰で育つ茸。</description>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Nutrition>0.18</Nutrition>
+        </statBases>
+        <graphicData>
+            <texPath>Things/Plant/Shiitake</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <selectable>true</selectable>
+        <pathCost>10</pathCost>
+        <ingestible/>
+        <plant>
+            <fertilitySensitivity>0.4</fertilitySensitivity>
+            <fertilityMin>0.1</fertilityMin>
+            <maxMeshCount>4</maxMeshCount>
+            <dieIfLeafless>true</dieIfLeafless>
+            <harvestTag>Standard</harvestTag>
+            <harvestedThingDef>SBK_RawShiitake</harvestedThingDef>
+			<harvestAfterGrowth>0.20</harvestAfterGrowth>
+            <harvestYield>7</harvestYield>
+            <sowMinSkill>6</sowMinSkill>
+            <sowTags>
+                <li>Ground</li>
+            </sowTags>
+            <topWindExposure>0.1</topWindExposure>
+            <growDays>10.2</growDays>
+            <visualSizeRange>1</visualSizeRange>
+            <wildOrder>2</wildOrder>
+            <purpose>Food</purpose>
+            <neverBlightable>true</neverBlightable>
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
+      <diesToLight>true</diesToLight>
+      <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+        </plant>
+    </ThingDef>
+    
+    <ThingDef ParentName="SBK_FungusPlant">
+        
+        <defName>SBK_PrantNameko</defName>
+        <label>なめこ</label>
+        <description>日陰で育つ茸。ぬめりがある。</description>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Nutrition>0.18</Nutrition>
+        </statBases>
+        <graphicData>
+            <texPath>Things/Plant/Nameko</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <selectable>true</selectable>
+        <pathCost>10</pathCost>
+        <ingestible/>
+        <plant>
+            <fertilitySensitivity>0.4</fertilitySensitivity>
+            <fertilityMin>0.1</fertilityMin>
+            <maxMeshCount>4</maxMeshCount>
+            <dieIfLeafless>true</dieIfLeafless>
+            <harvestTag>Standard</harvestTag>
+            <harvestedThingDef>SBK_RawNameko</harvestedThingDef>
+            <harvestAfterGrowth>0.20</harvestAfterGrowth>
+            <harvestYield>4</harvestYield>
+            <sowMinSkill>6</sowMinSkill>
+            <sowTags>
+                <li>Ground</li>
+            </sowTags>
+            <topWindExposure>0.1</topWindExposure>
+            <growDays>9.2</growDays>
+            <visualSizeRange>1</visualSizeRange>
+            <wildOrder>2</wildOrder>
+            <purpose>Food</purpose>
+            <neverBlightable>true</neverBlightable>
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
+      <diesToLight>true</diesToLight>
+      <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+        </plant>
+    </ThingDef>
+    
+</Defs>

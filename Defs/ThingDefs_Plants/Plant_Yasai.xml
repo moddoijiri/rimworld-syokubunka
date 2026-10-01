@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantNaganegi</defName>
+    <label>長ねぎ</label>
+    <description>長ねぎ植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Naganegi</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawNaganegi</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>6.6</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantNasu</defName>
+    <label>茄子</label>
+    <description>茄子植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Nasu</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawNasu</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+	  <harvestAfterGrowth>0.10</harvestAfterGrowth>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>8.6</growDays>
+      <visualSizeRange>0.8~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantTomato</defName>
+    <label>トマト</label>
+    <description>トマト植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Tomato</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawTomato</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+	  <harvestAfterGrowth>0.10</harvestAfterGrowth>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>8.3</growDays>
+      <visualSizeRange>0.8~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantKyuuri</defName>
+    <label>きゅうり</label>
+    <description>きゅうり植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Kyuuri</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawKyuuri</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+	  <harvestAfterGrowth>0.10</harvestAfterGrowth>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>7.3</growDays>
+      <visualSizeRange>0.8~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantHakusai</defName>
+    <label>白菜</label>
+    <description>白菜植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Hakusai</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawHakusai</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>7.5</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantTea</defName>
+    <label>お茶の木</label>
+    <description>お茶の木説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Tea</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawTea</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>10.3</growDays>
+      <visualSizeRange>0.8~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantTakanotsume</defName>
+    <label>鷹の爪</label>
+    <description>鷹の爪説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Takanotsume</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawTakanotsume</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>7.1</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+    
+</Defs>

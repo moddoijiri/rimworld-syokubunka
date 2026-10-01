@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--淡水魚-->
+  <ThingDef ParentName="SBK_PreparedFishBase">
+    <defName>SBK_UnagiHiraki</defName>
+    <label>鰻の開き</label>
+    <description>鰻を開いて下処理をしたもの。蒲焼きの材料になる。</description>
+    <graphicData>
+      <texPath>Things/Item/Prepared/UnagiHiraki</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.5</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SBK_PreparedFishBase">
+    <defName>SBK_SalmonFillet</defName>
+    <label>鮭の切り身</label>
+    <description>鮭の切り身。</description>
+    <graphicData>
+      <texPath>Things/Item/Prepared/SalmonFillet</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SBK_PreparedFishBase">
+    <defName>SBK_SalmonEgg</defName>
+    <label>鮭の卵</label>
+    <description>鮭の卵。いくらや筋子の原料。</description>
+    <graphicData>
+      <texPath>Things/Item/Prepared/SalmonEgg</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+  <!--海水魚-->
+  <ThingDef ParentName="SBK_PreparedFishBase">
+    <defName>SBK_KuromaguroHead</defName>
+    <label>クロマグロの頭</label>
+    <description>マグロのかぶと焼きの材料。目玉が美味。</description>
+    <graphicData>
+      <texPath>Things/Item/Prepared/KuromaguroHead</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>6.5</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SBK_PreparedFishBase">
+    <defName>SBK_KuromaguroBlock</defName>
+    <label>クロマグロのブロック</label>
+    <description>赤身、中トロ、大トロすべて含まれている。</description>
+    <graphicData>
+      <texPath>Things/Item/Prepared/KuromaguroBlock</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>6.5</MarketValue>
+      <Mass>0.4</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SBK_PreparedFishBase">
+    <defName>SBK_KuromaguroByproduct</defName>
+    <label>クロマグロの副産物</label>
+    <description>クロマグロの切り落としや中落ちなど。ネギトロなどの材料になる。</description>
+    <graphicData>
+      <texPath>Things/Item/Prepared/KuromaguroByproduct</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SBK_PreparedFishBase">
+    <defName>SBK_SurumeikaHiraki</defName>
+    <label>スルメイカの開き</label>
+    <description>内臓を処理したスルメイカの開き。</description>
+    <graphicData>
+      <texPath>Things/Item/Prepared/SurumeikaHiraki</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SBK_PreparedFishBase">
+    <defName>SBK_SurumeikaWata</defName>
+    <label>スルメイカのワタ</label>
+    <description>スルメイカの肝臓。塩辛の材料。画像は一時的に代替</description>
+    <graphicData>
+      <texPath>Things/Item/Prepared/SurumeikaWata</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SBK_PreparedFishBase">
+    <defName>SBK_KatsuoFillet</defName>
+    <label>カツオの切り身</label>
+    <description>カツオの切り身。この切り身を藁の火で炙ってカツオのたたきにする。</description>
+    <graphicData>
+      <texPath>Things/Item/Prepared/KatsuoFillet</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SBK_PreparedFishBase">
+    <defName>SBK_TorafuguKirimi</defName>
+    <label>トラフグの切り身</label>
+    <description>毒のある部位を取り除いたトラフグの切り身。</description>
+    <graphicData>
+      <texPath>Things/Item/Prepared/TorafuguKirimi</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SBK_PreparedFishBase">
+    <defName>SBK_TorafuguShirako</defName>
+    <label>トラフグの白子</label>
+    <description>トラフグの白子。画像はタラのもので代用。</description>
+    <graphicData>
+      <texPath>Things/Item/Prepared/TorafuguShirako</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+  <!--その他-->
+</Defs>

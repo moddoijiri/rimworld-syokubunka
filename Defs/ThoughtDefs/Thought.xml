@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThoughtDef>
+    <defName>BuffSenchaThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>BuffSencha</hediff>
+    <stages>
+      <li>
+        <label>香りを楽しみつつ煎茶を飲んだ</label>
+        <description>豊かな香りの煎茶だった</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

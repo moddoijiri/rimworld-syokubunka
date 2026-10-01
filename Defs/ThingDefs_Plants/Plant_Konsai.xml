@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--根菜類-->
+
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantTensai</defName>
+    <label>甜菜</label>
+    <description>甜菜植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Tensai</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawTensai</harvestedThingDef>
+      <harvestYield>6</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>6.8</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantSatsumaimo</defName>
+    <label>薩摩芋</label>
+    <description>薩摩芋植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Satsumaimo</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawSatsumaimo</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>8.1</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantDaikon</defName>
+    <label>大根</label>
+    <description>大根植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Daikon</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawDaikon</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>7.1</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantNinjin</defName>
+    <label>人参</label>
+    <description>人参植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Ninjin</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawNinjin</harvestedThingDef>
+      <harvestYield>6</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>7.3</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantKonnyakuimo</defName>
+    <label>蒟蒻芋</label>
+    <description>蒟蒻芋植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Konnyakuimo</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawKonnyakuimo</harvestedThingDef>
+      <harvestYield>6</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>9.3</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantYamaimo</defName>
+    <label>山芋</label>
+    <description>山芋植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Yamaimo</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawYamaimo</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>12.3</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantWasabi</defName>
+    <label>わさび</label>
+    <description>自らが排出する辛み成分が水中に溜まると成長が阻害されてしまうので流れのあるところでしか育たない。</description>
+    <graphicData>
+      <texPath>Things/Plant/Wasabi</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawWasabi</harvestedThingDef>
+      <harvestYield>10</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>12.1</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantSyouga</defName>
+    <label>生姜</label>
+    <description>生姜植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Syouga</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawSyouga</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>10.0</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+	</ThingDef>
+  
+  
+</Defs>

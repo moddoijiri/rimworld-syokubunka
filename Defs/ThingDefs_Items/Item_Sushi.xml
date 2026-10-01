@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Aji</defName>
+    <label>アジの握り</label>
+    <description>アジの握りずし。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Aji</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Madai</defName>
+    <label>真鯛の握り</label>
+    <description>真鯛の握りずし。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Madai</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Negitoro</defName>
+    <label>ねぎとろの軍艦巻き</label>
+    <description>ねぎとろの軍艦巻き。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Negitoro</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Hotate</defName>
+    <label>ホタテの握り</label>
+    <description>ホタテの握りずし。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Hotate</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Buri</defName>
+    <label>ブリの握り</label>
+    <description>ブリの握りずし。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Buri</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Ikura</defName>
+    <label>いくらの軍艦巻き</label>
+    <description>いくらの軍艦巻き。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Ikura</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Maguroaka</defName>
+    <label>赤身の握り</label>
+    <description>マグロの赤身の握りずし。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Maguroaka</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Magurochuu</defName>
+    <label>中トロの握り</label>
+    <description>マグロの中トロの握りずし。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Magurochuu</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Magurooo</defName>
+    <label>大トロの握り</label>
+    <description>マグロの大トロの握りずし。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Magurooo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Maguroset</defName>
+    <label>マグロ握り三種</label>
+    <description>マグロの赤身、中トロ、大トロの握りずしセット。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Maguroset</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Tamago</defName>
+    <label>玉子の握り</label>
+    <description>玉子の握りずし。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Tamago</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Inari</defName>
+    <label>稲荷寿司</label>
+    <description>稲荷寿司。甘く煮た油揚げで酢飯を包んだもの。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Inari</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Uni</defName>
+    <label>ウニの軍艦巻き</label>
+    <description>ウニの軍艦巻き。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Uni</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Kurumaebi</defName>
+    <label>車エビの握り</label>
+    <description>車エビの握りずし。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Kurumaebi</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Madako</defName>
+    <label>マダコの握り</label>
+    <description>マダコの握りずし。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Madako</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Surumeika</defName>
+    <label>スルメイカの握り</label>
+    <description>スルメイカの握りずし。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Surumeika</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Salmon</defName>
+    <label>サーモンの握り</label>
+    <description>サーモンの握りずし。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Salmon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_SushiBase">
+    <defName>SBK_Sushi_Hosomakiset</defName>
+    <label>細巻き三種</label>
+    <description>かっぱ、鉄火、納豆の細巻きずし三種。</description>
+    <graphicData>
+      <texPath>Things/Item/Sushi/Sushi_Hosomakiset</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+  
+</Defs>

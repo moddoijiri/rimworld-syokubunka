@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--穀類-->
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawKomugi</defName>
+    <label>小麦</label>
+    <description>うどんなどの材料。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawKomugi</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawSoba</defName>
+    <label>そば</label>
+    <description>そばの原料。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawSoba</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawUruchigenmai</defName>
+    <label>玄米(うるち米)</label>
+    <description>精米するとうるち米になる。精米過程で米ぬかも得られる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawUruchigenmai</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawMochigenmai</defName>
+    <label>玄米(もち米)</label>
+    <description>精米するともち米になる。精米過程で米ぬかも得られる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawMochigenmai</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawUruchimai</defName>
+    <label>白米(うるち米)</label>
+    <description>精白したうるち米。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawUruchimai</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawMochigome</defName>
+    <label>白米(もち米)</label>
+    <description>精白したもち米。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawMochigome</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <!--豆類-->
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawAzuki</defName>
+    <label>小豆</label>
+    <description>餡子の材料になる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawAzuki</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawDaizu</defName>
+    <label>大豆</label>
+    <description>納豆、豆腐、醤油等の材料になる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawDaizu</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <!--根菜類-->
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawTensai</defName>
+    <label>甜菜</label>
+    <description>氷砂糖の原料。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawTensai</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawSatsumaimo</defName>
+    <label>薩摩芋</label>
+    <description>芋焼酎の原料。ふかしたり天ぷらにしてもおいしい</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawSatsumaimo</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawDaikon</defName>
+    <label>大根</label>
+    <description>色んな料理に使える。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawDaikon</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawNinjin</defName>
+    <label>人参</label>
+    <description>色んな料理に使える。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawNinjin</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>9</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawKonnyakuimo</defName>
+    <label>蒟蒻芋</label>
+    <description>コンニャクの原料。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawKonnyakuimo</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawYamaimo</defName>
+    <label>山芋</label>
+    <description>主にすりおろしてご飯やそば、マグロにかけて食べる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawYamaimo</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawWasabi</defName>
+    <label>わさび</label>
+    <description>和食の薬味として使われる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawWasabi</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawSyouga</defName>
+    <label>生姜</label>
+    <description>和食の薬味、臭み消しとして使われる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawSyouga</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <!--菌類-->
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawShiitake</defName>
+    <label>椎茸</label>
+    <description>煮物にしたり、焼いて醤油をかけたりして食べる。干し椎茸にして出汁を取るのに使うこともできる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawShiitake</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawNameko</defName>
+    <label>なめこ</label>
+    <description>ぬめりのある茸。味噌汁やなめこおろしなどにして食べる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawNameko</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <!--その他-->
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawNaganegi</defName>
+    <label>長ねぎ</label>
+    <description>生のまま刻んで薬味にしたり、煮物にしたりして食べる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawNaganegi</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawNasu</defName>
+    <label>茄子</label>
+    <description>煮物、天ぷら、漬け物など色んな料理に幅広く使える。絶妙な苦みが魅力のひとつ。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawNasu</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawTomato</defName>
+    <label>トマト</label>
+    <description>色んな料理にうま味を加えてくれる野菜。漬け物にしてもおいしい。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawTomato</texPath>
+	  <drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawKyuuri</defName>
+    <label>きゅうり</label>
+    <description>冷や汁の材料として使える。生のままではこれといって味に特徴がないが、ぬか漬けにすると化ける。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawKyuuri</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawTea</defName>
+    <label>茶葉</label>
+    <description>茶の原料。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawTea</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawHakusai</defName>
+    <label>白菜</label>
+    <description>様々な調理法で食べられる癖の少ない野菜。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawHakusai</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="SBK_RawPlantBase">
+    <defName>SBK_RawTakanotsume</defName>
+    <label>鷹の爪</label>
+    <description>ぬか漬けに入れたり、もみじおろしにしたりして使われる。</description>
+    <graphicData>
+      <texPath>Things/Item/RawPlant/RawTakanotsume</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>7</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+</Defs>

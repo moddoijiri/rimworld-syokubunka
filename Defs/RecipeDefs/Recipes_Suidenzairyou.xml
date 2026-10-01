@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef ParentName="CookRyouriBase">
+    <defName>CookNamagomi</defName>
+    <label>生ごみをまとめる。</label>
+    <description>溜まっている生ごみをまとめます。</description>
+    <jobString>生ごみをまとめている。</jobString>
+    <ingredients>
+    </ingredients>
+    <fixedIngredientFilter>
+    </fixedIngredientFilter>
+	<workAmount>500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<effectWorking>ButcherFlesh</effectWorking>
+	<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <products>
+      <SBK_Namagomi>20</SBK_Namagomi>
+    </products>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="StoneSagyouBase">
+    <defName>CookJyari</defName>
+    <label>砂利を作る</label>
+    <description>石を砕いて砂利を作ります。</description>
+    <jobString>砂利を作っている。</jobString>
+    <ingredients>
+    <li>
+        <filter>
+          <categories>
+            <li>StoneChunks</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+	</ingredients>
+    <fixedIngredientFilter>
+    <categories>
+        <li>StoneChunks</li>
+      </categories>
+	</fixedIngredientFilter>
+	<workAmount>700</workAmount>
+    <workSpeedStat>WorkSpeedGlobal</workSpeedStat>
+	<effectWorking>CutStone</effectWorking>
+	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <products>
+      <SBK_Jyari>15</SBK_Jyari>
+    </products>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+  
+  
+</Defs>

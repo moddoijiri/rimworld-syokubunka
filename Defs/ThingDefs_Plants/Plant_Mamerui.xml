@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--豆類-->
+
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantAzuki</defName>
+    <label>小豆</label>
+    <description>小豆植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Azuki</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawAzuki</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>6.8</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_YasaiPlant">
+    <defName>SBK_PlantDaizu</defName>
+    <label>大豆</label>
+    <description>大豆植物説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Daizu</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <plant>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SBK_RawDaizu</harvestedThingDef>
+      <harvestYield>6</harvestYield>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>6.5</growDays>
+      <visualSizeRange>0.5~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+  
+  
+  
+</Defs>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+    <defName>SBK_Nukazuketaru</defName>
+    <label>ぬか漬け樽</label>
+    <description>野菜を漬けるぬか床が入った樽。適温20～27℃。</description>
+    <graphicData>
+      <texPath>Things/Building/Nukazuketaru</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+      </damageData>
+    </graphicData>
+	<costList>
+	  <SBK_Nukadoko>50</SBK_Nukadoko>
+    </costList>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+<drawerType>MapMeshAndRealTime</drawerType>
+    <passability>PassThroughOnly</passability>
+    <canOverlapZones>false</canOverlapZones>
+    <fillPercent>0.3</fillPercent>
+    <pathCost>60</pathCost>
+    <rotatable>true</rotatable>
+    <size>(2,2)</size>
+    <stuffCategories>
+       <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Rare</tickerType>
+    <statBases>
+      <Cleanliness>-12</Cleanliness>
+      <WorkToBuild>550</WorkToBuild>
+      <Mass>8</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <designationCategory>Production</designationCategory>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="ProcessorFramework.CompProperties_Processor">
+    <capacity>40</capacity>
+    <independentProcesses>true</independentProcesses>
+    <parallelProcesses>true</parallelProcesses>
+    <dropIngredients>false</dropIngredients>
+    <showProductIcon>true</showProductIcon>
+    <barOffset>(0.0, 0.25)</barOffset>
+    <barScale>(1.0, 1.0)</barScale>
+    <colorCoded>false</colorCoded>
+    <processes>
+      <li>KyuurizukeHakkou</li>
+      <li>HakusaizukeHakkou</li>
+      <li>TomatozukeHakkou</li>
+      <li>NasuzukeHakkou</li>     
+    </processes>
+  </li>
+    </comps>
+    <researchPrerequisites>
+      <li>SBK_SyokuRS</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+<ProcessorFramework.ProcessDef>
+  <defName>KyuurizukeHakkou</defName>
+  <thingDef>SBK_Tsukekyuuri</thingDef>
+  <ingredientFilter>
+    <thingDefs>
+      <li>SBK_RawKyuuri</li>
+    </thingDefs>
+  </ingredientFilter>
+  <processDays>2</processDays> <!-- in days, a day is 60,000 ticks -->
+  <capacityFactor>5.0</capacityFactor>
+  <efficiency>1.0</efficiency>
+  <usesTemperature>true</usesTemperature>
+  <temperatureSafe>-10.0~37.0</temperatureSafe>
+  <temperatureIdeal>20.0~27.0</temperatureIdeal>
+  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+  <speedBelowSafe>0.1</speedBelowSafe>
+  <speedAboveSafe>1.0</speedAboveSafe>
+  <sunFactor>1.0~1.0</sunFactor>
+  <rainFactor>1.0~1.0</rainFactor>
+  <snowFactor>1.0~1.0</snowFactor>
+  <windFactor>1.0~1.0</windFactor>
+  <unpoweredFactor>0.0</unpoweredFactor>
+  <unfueledFactor>0.0</unfueledFactor>
+  <powerUseFactor>1.0</powerUseFactor>
+  <fuelUseFactor>1.0</fuelUseFactor>
+  <filledGraphicSuffix></filledGraphicSuffix>
+  <usesQuality>false</usesQuality>
+  <qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+  <customLabel></customLabel>
+  <destroyChance>0.0</destroyChance>
+  
+</ProcessorFramework.ProcessDef>
+
+<ProcessorFramework.ProcessDef>
+  <defName>HakusaizukeHakkou</defName>
+  <thingDef>SBK_Tsukehakusai</thingDef>
+  <ingredientFilter>
+    <thingDefs>
+      <li>SBK_RawHakusai</li>
+    </thingDefs>
+  </ingredientFilter>
+  <processDays>2</processDays> <!-- in days, a day is 60,000 ticks -->
+  <capacityFactor>5.0</capacityFactor>
+  <efficiency>1.0</efficiency>
+  <usesTemperature>true</usesTemperature>
+  <temperatureSafe>-10.0~37.0</temperatureSafe>
+  <temperatureIdeal>20.0~27.0</temperatureIdeal>
+  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+  <speedBelowSafe>0.1</speedBelowSafe>
+  <speedAboveSafe>1.0</speedAboveSafe>
+  <sunFactor>1.0~1.0</sunFactor>
+  <rainFactor>1.0~1.0</rainFactor>
+  <snowFactor>1.0~1.0</snowFactor>
+  <windFactor>1.0~1.0</windFactor>
+  <unpoweredFactor>0.0</unpoweredFactor>
+  <unfueledFactor>0.0</unfueledFactor>
+  <powerUseFactor>1.0</powerUseFactor>
+  <fuelUseFactor>1.0</fuelUseFactor>
+  <filledGraphicSuffix></filledGraphicSuffix>
+  <usesQuality>false</usesQuality>
+  <qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+  <customLabel></customLabel>
+  <destroyChance>0.0</destroyChance>
+  
+</ProcessorFramework.ProcessDef>
+
+<ProcessorFramework.ProcessDef>
+  <defName>TomatozukeHakkou</defName>
+  <thingDef>SBK_Tsuketomato</thingDef>
+  <ingredientFilter>
+    <thingDefs>
+      <li>SBK_RawTomato</li>
+    </thingDefs>
+  </ingredientFilter>
+  <processDays>2</processDays> <!-- in days, a day is 60,000 ticks -->
+  <capacityFactor>5.0</capacityFactor>
+  <efficiency>1.0</efficiency>
+  <usesTemperature>true</usesTemperature>
+  <temperatureSafe>-10.0~37.0</temperatureSafe>
+  <temperatureIdeal>20.0~27.0</temperatureIdeal>
+  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+  <speedBelowSafe>0.1</speedBelowSafe>
+  <speedAboveSafe>1.0</speedAboveSafe>
+  <sunFactor>1.0~1.0</sunFactor>
+  <rainFactor>1.0~1.0</rainFactor>
+  <snowFactor>1.0~1.0</snowFactor>
+  <windFactor>1.0~1.0</windFactor>
+  <unpoweredFactor>0.0</unpoweredFactor>
+  <unfueledFactor>0.0</unfueledFactor>
+  <powerUseFactor>1.0</powerUseFactor>
+  <fuelUseFactor>1.0</fuelUseFactor>
+  <filledGraphicSuffix></filledGraphicSuffix>
+  <usesQuality>false</usesQuality>
+  <qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+  <customLabel></customLabel>
+  <destroyChance>0.0</destroyChance>
+  
+</ProcessorFramework.ProcessDef>
+
+<ProcessorFramework.ProcessDef>
+  <defName>NasuzukeHakkou</defName>
+  <thingDef>SBK_Tsukenasu</thingDef>
+  <ingredientFilter>
+    <thingDefs>
+      <li>SBK_RawNasu</li>
+    </thingDefs>
+  </ingredientFilter>
+  <processDays>2</processDays> <!-- in days, a day is 60,000 ticks -->
+  <capacityFactor>5.0</capacityFactor>
+  <efficiency>1.0</efficiency>
+  <usesTemperature>true</usesTemperature>
+  <temperatureSafe>-10.0~37.0</temperatureSafe>
+  <temperatureIdeal>20.0~27.0</temperatureIdeal>
+  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+  <speedBelowSafe>0.1</speedBelowSafe>
+  <speedAboveSafe>1.0</speedAboveSafe>
+  <sunFactor>1.0~1.0</sunFactor>
+  <rainFactor>1.0~1.0</rainFactor>
+  <snowFactor>1.0~1.0</snowFactor>
+  <windFactor>1.0~1.0</windFactor>
+  <unpoweredFactor>0.0</unpoweredFactor>
+  <unfueledFactor>0.0</unfueledFactor>
+  <powerUseFactor>1.0</powerUseFactor>
+  <fuelUseFactor>1.0</fuelUseFactor>
+  <filledGraphicSuffix></filledGraphicSuffix>
+  <usesQuality>false</usesQuality>
+  <qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+  <customLabel></customLabel>
+  <destroyChance>0.0</destroyChance>
+  
+</ProcessorFramework.ProcessDef>
+
+
+
+  
+</Defs>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>食文化</name>
+	<author>八十吉</author>
+	<url>none</url>
+	<supportedVersions>
+	  	<li>1.6</li>
+	</supportedVersions>
+	<description>日本の食文化Mod。</description>
+	<packageId>yasokichi.syokubunka</packageId>
+	
+	<modDependencies>
+		<li>
+			<packageId>syrchalis.processor.framework</packageId>
+			<displayName>[SYR] Processor Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3210544395</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>syrchalis.processor.framework</li>
+		<li>DankPyon.Medieval.Overhaul</li>
+	</loadAfter>	
+	
+</ModMetaData>

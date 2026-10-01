@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TerrainDef ParentName="WaterShallowBase">
+    <defName>SBK_FloorInada</defName>
+    <label>稲田</label>
+	<description>稲を植えるための水田。肥沃。</description>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>394</renderPrecedence>
+    <costList>
+      <SBK_Taihi>5</SBK_Taihi>
+	  <SBK_Mamizu>20</SBK_Mamizu>
+    </costList>
+    <designationCategory>Floors</designationCategory>
+    <layerable>true</layerable>
+    <pathCost>0</pathCost>
+    <resourcesFractionWhenDeconstructed>0.4</resourcesFractionWhenDeconstructed>
+    <affordances>
+      <li>GrowSoil</li>
+    </affordances>
+    <fertility>1.3</fertility>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WaterShallowBase">
+    <defName>SBK_FloorWasabida</defName>
+    <label>わさび田</label>
+	<description>わさびを栽培するための水田。根に水流をあてるために砂利を敷いている。</description>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>394</renderPrecedence>
+    <costList>
+      <SBK_Taihi>2</SBK_Taihi>
+	  <SBK_Mamizu>30</SBK_Mamizu>
+	  <SBK_Jyari>15</SBK_Jyari>
+    </costList>
+    <designationCategory>Floors</designationCategory>
+    <layerable>true</layerable>
+    <pathCost>0</pathCost>
+    <resourcesFractionWhenDeconstructed>0.4</resourcesFractionWhenDeconstructed>
+    <affordances>
+      <li>GrowSoil</li>
+    </affordances>
+    <fertility>1.1</fertility>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WaterShallowBase">
+    <defName>SBK_FloorYousyoku</defName>
+    <label>養殖場</label>
+	<description>海で海藻や貝類を養殖する場。</description>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>394</renderPrecedence>
+    <costList>
+      <WoodLog>5</WoodLog>
+	  <Cloth>3</Cloth>
+    </costList>
+    <designationCategory>Floors</designationCategory>
+    <layerable>true</layerable>
+    <pathCost>0</pathCost>
+    <resourcesFractionWhenDeconstructed>0.4</resourcesFractionWhenDeconstructed>
+    <affordances>
+      <li>GrowSoil</li>
+    </affordances>
+    <fertility>1.2</fertility>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FloorBase">
+    <defName>SBK_FloorSakudo</defName>
+    <label>作土</label>
+	<description>堆肥を施して耕した土。</description>
+    <texturePath>Terrain/Surfaces/SoilSakudo</texturePath>
+    <renderPrecedence>300</renderPrecedence>
+    <costList>
+      <SBK_Taihi>2</SBK_Taihi>
+    </costList>
+    <designationCategory>Floors</designationCategory>
+    <layerable>true</layerable>
+    <pathCost>0</pathCost>
+    <resourcesFractionWhenDeconstructed>0.4</resourcesFractionWhenDeconstructed>
+    <affordances>
+      <li>GrowSoil</li>
+    </affordances>
+    <fertility>1.3</fertility>
+	<statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-0.1</Cleanliness>
+      <WorkToBuild>100</WorkToBuild>
+      <FilthMultiplier>1.0</FilthMultiplier>
+      <Flammability>0</Flammability>
+    </statBases>
+  </TerrainDef>
+</Defs>

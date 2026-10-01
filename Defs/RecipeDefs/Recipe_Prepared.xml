@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef ParentName="PrepareSuisanBase">
+    <defName>PreppUnagi</defName>
+    <label>鰻を捌く</label>
+    <description>鰻を捌いて開きにする</description>
+    <jobString>鰻を捌いている</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <!-- 材料 -->
+   <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Unagi</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      
+   </ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+		   	<thingDefs>
+			    <li>SBK_Unagi</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+                <!-- 完成品 -->
+		<products>
+			<SBK_UnagiHiraki>4</SBK_UnagiHiraki>
+		</products>
+    <workSkill>Cooking</workSkill>
+    
+  </RecipeDef>
+  
+  <RecipeDef ParentName="PrepareSuisanBase">
+    <defName>PreppSalmon</defName>
+    <label>鮭を捌く</label>
+    <description>鮭を捌いて切り身にして卵を取り出す</description>
+    <jobString>鮭を捌いている</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>700</workAmount>
+    <!-- 材料 -->
+   <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Salmon</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      
+   </ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+		   	<thingDefs>
+			    <li>SBK_Salmon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+                <!-- 完成品 -->
+		<products>
+			<SBK_SalmonFillet>4</SBK_SalmonFillet>
+			<SBK_SalmonEgg>2</SBK_SalmonEgg>
+		</products>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="PrepareSuisanBase">
+    <defName>PreppKuromaguro</defName>
+    <label>クロマグロを解体する</label>
+    <description>クロマグロを解体して各種素材を入手する</description>
+    <jobString>クロマグロを解体している</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+    <!-- 材料 -->
+   <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Kuromaguro</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      
+   </ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+		   	<thingDefs>
+			    <li>SBK_Kuromaguro</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+                <!-- 完成品 -->
+		<products>
+			<SBK_KuromaguroHead>1</SBK_KuromaguroHead>
+			<SBK_KuromaguroBlock>4</SBK_KuromaguroBlock>
+			<SBK_KuromaguroByproduct>4</SBK_KuromaguroByproduct>
+		</products>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="PrepareSuisanBase">
+    <defName>PreppSurumeika</defName>
+    <label>スルメイカを捌く</label>
+    <description>スルメイカを捌いてワタを取り出し開きにする</description>
+    <jobString>スルメイカを捌いている</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>700</workAmount>
+    <!-- 材料 -->
+   <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Surumeika</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      
+   </ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+		   	<thingDefs>
+			    <li>SBK_Surumeika</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+                <!-- 完成品 -->
+		<products>
+			<SBK_SurumeikaHiraki>2</SBK_SurumeikaHiraki>
+			<SBK_SurumeikaWata>2</SBK_SurumeikaWata>
+		</products>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="PrepareSuisanBase">
+    <defName>PreppKatsuo</defName>
+    <label>カツオを捌く</label>
+    <description>カツオを捌いて切り身にする</description>
+    <jobString>カツオを捌いている</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>900</workAmount>
+    <!-- 材料 -->
+   <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Katsuo</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      
+   </ingredients>
+                <!-- 使える素材 -->
+		<fixedIngredientFilter>
+		   	<thingDefs>
+			    <li>SBK_Katsuo</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+                <!-- 完成品 -->
+		<products>
+			<SBK_KatsuoFillet>4</SBK_KatsuoFillet>
+		</products>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+  
+  
+</Defs>

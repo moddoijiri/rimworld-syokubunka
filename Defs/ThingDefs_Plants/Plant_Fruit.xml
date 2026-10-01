@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!--果物-->
+
+  <ThingDef ParentName="SBK_FruitTree">
+    <defName>Plant_TreeUme</defName>
+    <label>梅の木</label>
+    <description>梅の木説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Ume</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.15, 0.3, 0.15)</volume>
+          <offset>(0,0,-0.38)</offset>
+        </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <minifiedDef IsNull="True" />
+    <ingestible />
+    <plant>
+      <growDays>25</growDays>
+      <visualSizeRange>1~2.5</visualSizeRange>
+      
+      <topWindExposure>0.15</topWindExposure>
+      <harvestWork>350</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <forceIsTree>true</forceIsTree>
+      <harvestYield>20</harvestYield>
+      <harvestedThingDef>SBK_RawUme</harvestedThingDef>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_FruitTree">
+    <defName>Plant_TreeKuri</defName>
+    <label>栗の木</label>
+    <description>栗の木説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Kuri</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.15, 0.3, 0.15)</volume>
+          <offset>(0,0,-0.38)</offset>
+        </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <minifiedDef IsNull="True" />
+    <ingestible />
+    <plant>
+      <growDays>23</growDays>
+      <visualSizeRange>1~2.5</visualSizeRange>
+      
+      <topWindExposure>0.15</topWindExposure>
+      <harvestWork>450</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <forceIsTree>true</forceIsTree>
+      <harvestYield>18</harvestYield>
+      <harvestedThingDef>SBK_RawKuri</harvestedThingDef>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_FruitTree">
+    <defName>Plant_TreeYuzu</defName>
+    <label>ゆずの木</label>
+    <description>ゆずの木説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Yuzu</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.15, 0.3, 0.15)</volume>
+          <offset>(0,0,-0.38)</offset>
+        </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <minifiedDef IsNull="True" />
+    <ingestible />
+    <plant>
+      <growDays>21</growDays>
+      <visualSizeRange>1~2</visualSizeRange>
+      
+      <topWindExposure>0.15</topWindExposure>
+      <harvestWork>330</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <forceIsTree>true</forceIsTree>
+      <harvestYield>15</harvestYield>
+      <harvestedThingDef>SBK_RawYuzu</harvestedThingDef>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_FruitTree">
+    <defName>Plant_TreeNashi</defName>
+    <label>梨の木</label>
+    <description>梨の木説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Nashi</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.15, 0.3, 0.15)</volume>
+          <offset>(0,0,-0.38)</offset>
+        </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <minifiedDef IsNull="True" />
+    <ingestible />
+    <plant>
+      <growDays>22</growDays>
+      <visualSizeRange>1~2</visualSizeRange>
+      
+      <topWindExposure>0.15</topWindExposure>
+      <harvestWork>330</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <forceIsTree>true</forceIsTree>
+      <harvestYield>12</harvestYield>
+      <harvestedThingDef>SBK_RawNashi</harvestedThingDef>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="SBK_FruitTree">
+    <defName>Plant_TreeKaki</defName>
+    <label>柿の木</label>
+    <description>柿の木説明</description>
+    <graphicData>
+      <texPath>Things/Plant/Kaki</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.15, 0.3, 0.15)</volume>
+          <offset>(0,0,-0.38)</offset>
+        </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <statBases>
+      <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+      <Nutrition>1.5</Nutrition>
+    </statBases>
+    <minifiedDef IsNull="True" />
+    <ingestible />
+    <plant>
+      <growDays>21.5</growDays>
+      <visualSizeRange>1~2.5</visualSizeRange>
+      
+      <topWindExposure>0.15</topWindExposure>
+      <harvestWork>320</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <forceIsTree>true</forceIsTree>
+      <harvestYield>11</harvestYield>
+      <harvestedThingDef>SBK_RawKaki</harvestedThingDef>
+    </plant>
+  </ThingDef>
+
+
+</Defs>

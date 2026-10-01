@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="SBK_SuidenzairyouBase">
+    <defName>SBK_Fuguhaikibutsu</defName>
+    <label>ふぐ廃棄物</label>
+    <description>ふぐを捌いたときに弾いた毒のある部位を集めたもの。処理には調理者が責任を持つ。</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Fuguhaikibutsu</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Mass>0.03</Mass>
+      <Nutrition>0</Nutrition>
+    </statBases>
+	<tradeability>None</tradeability>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  
+  <RecipeDef>
+    <defName>Mimizutori</defName>
+    <label>ミミズを取る</label>
+    <description>ミミズを取る。</description>
+	<jobString>ミミズを取っている</jobString>
+    <workAmount>400</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+        <ingredients>
+			
+		</ingredients>
+		<!--使用する材料-->
+		
+		<!-- 完成品 -->
+		<products>
+			<SBK_Mimizu>13</SBK_Mimizu>
+		</products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Amiebitori</defName>
+    <label>アミエビを取る</label>
+    <description>アミエビを取る。</description>
+	<jobString>アミエビを取っている。</jobString>
+    <workAmount>400</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      
+    </ingredients>
+    
+    <products>
+      <SBK_Amiebi>20</SBK_Amiebi>
+    </products>
+  </RecipeDef>
+    <!--
+    <RecipeDef>
+    <defName>Namanoritori</defName>
+    <label>生海苔を取る</label>
+    <description>生海苔を取る。</description>
+	<jobString>生海苔を取っている。</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      
+    </ingredients>
+    
+    <products>
+      <SBK_Namanori>15</SBK_Namanori>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Namakonbutori</defName>
+    <label>生昆布を取る</label>
+    <description>生昆布を取る。</description>
+	<jobString>生昆布を取っている。</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      
+    </ingredients>
+    
+    <products>
+      <SBK_Namakonbu>15</SBK_Namakonbu>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Wakametori</defName>
+    <label>わかめを取る</label>
+    <description>わかめを取る。</description>
+	<jobString>わかめを取っている。</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      
+    </ingredients>
+    
+    <products>
+      <SBK_Wakame>15</SBK_Wakame>
+    </products>
+    
+  </RecipeDef>
+  -->
+  <!--淡水魚釣り-->
+  
+  <RecipeDef>
+    <defName>Iwanatsuri</defName>
+    <label>イワナを釣る</label>
+    <description>イワナを釣る。</description>
+	<jobString>イワナを釣っている</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Mimizu</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Mimizu</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Iwana>4</SBK_Iwana>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Koitsuri</defName>
+    <label>鯉を釣る</label>
+    <description>鯉を釣る。</description>
+	<jobString>鯉を釣っている</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Mimizu</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Mimizu</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Tansuikoi>4</SBK_Tansuikoi>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Saketsuri</defName>
+    <label>サケを釣る</label>
+    <description>サケを釣る。</description>
+	<jobString>サケを釣っている</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Iwashi</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Iwashi</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Salmon>4</SBK_Salmon>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Unagitsuri</defName>
+    <label>鰻を釣る</label>
+    <description>鰻を釣る。</description>
+	<jobString>鰻を釣っている</jobString>
+    <workAmount>900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Mimizu</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Mimizu</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Unagi>4</SBK_Unagi>
+    </products>
+    
+  </RecipeDef>
+  
+  <!--貝獲り-->
+  <!--
+  <RecipeDef>
+    <defName>AsariHamaguritori</defName>
+    <label>アサリ・蛤を取る</label>
+    <description>アサリ・蛤を取る。</description>
+	<jobString>アサリ・蛤を取っている</jobString>
+    <workAmount>1300</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      
+    </ingredients>
+    
+    <products>
+      <SBK_AsariHamaguri>8</SBK_AsariHamaguri>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Sazaetori</defName>
+    <label>サザエを取る</label>
+    <description>サザエを取る。</description>
+	<jobString>サザエを取っている</jobString>
+    <workAmount>1300</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      
+    </ingredients>
+    
+    <products>
+      <SBK_Sazae>8</SBK_Sazae>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Kakitori</defName>
+    <label>牡蠣を取る</label>
+    <description>牡蠣を取る。</description>
+	<jobString>牡蠣を取っている</jobString>
+    <workAmount>1300</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      
+    </ingredients>
+    
+    <products>
+      <SBK_Oyster>8</SBK_Oyster>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Hotatetori</defName>
+    <label>ホタテを取る</label>
+    <description>ホタテを取る。</description>
+	<jobString>ホタテを取っている</jobString>
+    <workAmount>1300</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      
+    </ingredients>
+    
+    <products>
+      <SBK_Hotate>8</SBK_Hotate>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Unitori</defName>
+    <label>ウニを取る</label>
+    <description>ウニを取る。</description>
+	<jobString>ウニを取っている</jobString>
+    <workAmount>1600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      
+    </ingredients>
+    
+    <products>
+      <SBK_Uni>8</SBK_Uni>
+    </products>
+    
+  </RecipeDef>
+  -->
+  <!--海水魚釣り-->
+  <RecipeDef>
+    <defName>Iwashitsuri</defName>
+    <label>イワシを釣る</label>
+    <description>イワシを釣る。</description>
+	<jobString>イワシを釣っている</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Amiebi</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <products>
+      <SBK_Iwashi>6</SBK_Iwashi>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Kurumaebitsuri</defName>
+    <label>車エビを釣る</label>
+    <description>車エビを釣る。</description>
+	<jobString>車エビを釣っている</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Iwashi</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Iwashi</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Kurumaebi>6</SBK_Kurumaebi>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Ajitsuri</defName>
+    <label>アジを釣る</label>
+    <description>アジを釣る。</description>
+	<jobString>アジを釣っている</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Amiebi</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Amiebi</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Aji>5</SBK_Aji>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Sabatsuri</defName>
+    <label>サバを釣る</label>
+    <description>サバを釣る。</description>
+	<jobString>サバを釣っている</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Amiebi</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Amiebi</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Saba>5</SBK_Saba>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Nishintsuri</defName>
+    <label>ニシンを釣る</label>
+    <description>ニシンを釣る。</description>
+	<jobString>ニシンを釣っている</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Amiebi</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Amiebi</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Nishin>5</SBK_Nishin>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Surumeikatsuri</defName>
+    <label>スルメイカを釣る</label>
+    <description>スルメイカを釣る。</description>
+	<jobString>スルメイカを釣っている</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Iwashi</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Iwashi</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Surumeika>7</SBK_Surumeika>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Madakotsuri</defName>
+    <label>マダコを釣る</label>
+    <description>マダコを釣る。</description>
+	<jobString>マダコを釣っている</jobString>
+    <workAmount>700</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Iwashi</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Iwashi</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Madako>7</SBK_Madako>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Buritsuri</defName>
+    <label>ブリを釣る</label>
+    <description>ブリを釣る。</description>
+	<jobString>ブリを釣っている</jobString>
+    <workAmount>800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Iwashi</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Iwashi</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Buri>5</SBK_Buri>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Madaitsuri</defName>
+    <label>真鯛を釣る</label>
+    <description>真鯛を釣る。</description>
+	<jobString>真鯛を釣っている</jobString>
+    <workAmount>800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Amiebi</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Amiebi</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Madai>6</SBK_Madai>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Katsuotsuri</defName>
+    <label>カツオを釣る</label>
+    <description>カツオを釣る。</description>
+	<jobString>カツオを釣っている</jobString>
+    <workAmount>800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Iwashi</li>
+          </thingDefs>
+        </filter>
+        <count>7</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Iwashi</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Katsuo>5</SBK_Katsuo>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Torafugutsuri</defName>
+    <label>トラフグを釣る</label>
+    <description>トラフグを釣る。</description>
+	<jobString>トラフグを釣っている</jobString>
+    <workAmount>900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_AsariHamaguri</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_AsariHamaguri</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Torafugu>4</SBK_Torafugu>
+    </products>
+    
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Magurotsuri</defName>
+    <label>マグロを釣る</label>
+    <description>マグロを釣る。</description>
+	<jobString>マグロを釣っている</jobString>
+    <workAmount>1500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SBK_Surumeika</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SBK_Surumeika</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SBK_Kuromaguro>1</SBK_Kuromaguro>
+    </products>
+    
+  </RecipeDef>
+  
+  
+</Defs>
