@@ -43,6 +43,7 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+	<tickerType>Rare</tickerType>
     <stackLimit>75</stackLimit>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
@@ -80,9 +81,11 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+	<tickerType>Rare</tickerType>
     <stackLimit>60</stackLimit>
     <ingestible>
-      <preferability>NeverForNutrition</preferability>
+      <foodType>Meat</foodType>
+	  <preferability>NeverForNutrition</preferability>
     </ingestible>
     <thingCategories>
       <li>SBK_Tsurie</li>
@@ -94,6 +97,7 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+	<tickerType>Rare</tickerType>
     <stackLimit>75</stackLimit>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
@@ -126,6 +130,7 @@
       <graphicData>
         <graphicClass>Graphic_Single</graphicClass>
       </graphicData>
+	  <tickerType>Rare</tickerType>
       <stackLimit>75</stackLimit>
       <statBases>
         <MaxHitPoints>80</MaxHitPoints>
@@ -188,6 +193,7 @@
       <graphicData>
         <graphicClass>Graphic_Single</graphicClass>
       </graphicData>
+	  <tickerType>Rare</tickerType>
       <stackLimit>75</stackLimit>
       <statBases>
         <MaxHitPoints>80</MaxHitPoints>

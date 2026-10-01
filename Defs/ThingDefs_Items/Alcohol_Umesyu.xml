@@ -18,8 +18,6 @@
       <texPath>Things/Item/Drug/Umesyu</texPath>
 	  <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
-    <equippedAngleOffset>-150</equippedAngleOffset>
-    <rotatable>false</rotatable>
     <stackLimit>25</stackLimit>
     <statBases>
       <DeteriorationRate>0.5</DeteriorationRate>
@@ -63,7 +61,6 @@
         </li>
       </outcomeDoers>
     </ingestible>
-    <equipmentType>Primary</equipmentType>
     <techLevel>Neolithic</techLevel>
     <comps>
       <li Class="CompProperties_Drug">
@@ -73,9 +70,6 @@
         <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
         <needLevelOffset>0.9</needLevelOffset>
         <listOrder>10</listOrder>
-      </li>
-      <li>
-        <compClass>CompEquippable</compClass>
       </li>
     </comps>
     

@@ -7,11 +7,16 @@
     <graphicData>
       <texPath>Things/Item/Resource/Namagomi</texPath>
     </graphicData>
+	<tickerType>Rare</tickerType>
     <statBases>
       <MarketValue>0.1</MarketValue>
       <Mass>0.03</Mass>
       <Nutrition>0.05</Nutrition>
     </statBases>
+	<ingestible>
+      <foodType>Processed</foodType>
+	  <preferability>NeverForNutrition</preferability>
+    </ingestible>
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>20</daysToRotStart>
@@ -33,6 +38,10 @@
       <Mass>0.03</Mass>
       <Nutrition>0.05</Nutrition>
     </statBases>
+	<ingestible>
+      <foodType>Processed</foodType>
+	  <preferability>NeverForNutrition</preferability>
+    </ingestible>
 	<tradeability>Sellable</tradeability>
   </ThingDef>
   
@@ -48,6 +57,10 @@
       <Mass>0.03</Mass>
       <Nutrition>0.05</Nutrition>
     </statBases>
+	<ingestible>
+      <foodType>Processed</foodType>
+	  <preferability>NeverForNutrition</preferability>
+    </ingestible>
 	<tradeability>None</tradeability>
   </ThingDef>
   

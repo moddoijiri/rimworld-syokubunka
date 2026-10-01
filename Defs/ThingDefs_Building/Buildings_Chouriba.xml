@@ -6,6 +6,9 @@
     <label>調理場</label>
     <description>料理をしたり、魚介の下処理をする場</description>
     <thingClass>Building_WorkTable</thingClass>
+	<thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
     <graphicData>
       <texPath>Things/Building/Chouriba</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -30,6 +33,7 @@
       <WorkToBuild>2000</WorkToBuild>
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
+	  <Mass>20</Mass>
     </statBases>
     <size>(3,1)</size>
     <designationCategory>Production</designationCategory>

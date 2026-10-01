@@ -8,6 +8,10 @@
       <texPath>Things/Item/Resource/Fuguhaikibutsu</texPath>
 	  <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
+	<ingestible>
+      <foodType>Processed</foodType>
+	  <preferability>NeverForNutrition</preferability>
+    </ingestible>
     <statBases>
       <MarketValue>0</MarketValue>
       <Mass>0.03</Mass>
